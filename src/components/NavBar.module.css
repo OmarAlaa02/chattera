@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed; /* Fixes the navbar to the side */
+  top: 0;
+  left: 0;
+  height: 100%; /* Full height */
+  width: 6%; /* Adjust width based on preference */
+  background-color: #f0f0f0; /* Light background color */
+  padding: 20px 0; /* Padding on top and bottom */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.navLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px; /* Soft rounded corners for hover */
+  padding: 15px 0; /* Add vertical padding */
+}
+
+
+
+.navLink:hover {
+  background-color: #e0e0e0; /* Background change on hover */
+  border-radius: 10px; /* Soft rounded corners for hover */
+  padding: 15px 0; /* Ensure consistent padding */
+}
+

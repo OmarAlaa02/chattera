@@ -1,0 +1,24 @@
+.chatInput {
+    width: 90%; /* Takes up the full width of its container */
+    padding: 10px 15px; /* Adds padding for comfortable typing */
+    font-size: 16px; /* A readable font size */
+    border-radius: 20px; /* Rounded corners for a smooth, modern look */
+    border: 1px solid #ccc; /* A light border */
+    outline: none; /* Removes default blue border on focus */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    transition: all 0.2s ease; /* Smooth transition for focus state */
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.chatInput:focus {
+    border: 1px solid #000000; /* Highlight border on focus */
+    background-color: #fff; /* White background on focus */
+    /* box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  */
+}
+
+.chatInput::placeholder {
+    color: #aaa; /* Placeholder text color */
+    font-style: italic; /* Optional styling for placeholder text */
+}

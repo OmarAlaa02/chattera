@@ -1,0 +1,54 @@
+.message {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 15px;
+    max-width: 60%; /* Ensure messages don't stretch too wide */
+    word-wrap: break-word; /* Allows long words to break and fit within the box */
+    font-size: 14px;
+}
+
+.senderMessage {
+    background-color: #dcf8c6; /* Light green for sender */
+    align-self: flex-end; /* Align messages to the right for sender */
+    text-align: right; /* Align text to the right */
+    border-top-right-radius: 0; /* Square corner on the sender's side */
+}
+
+.receiverMessage {
+    background-color: #fff; /* White for receiver */
+    border: 1px solid #e0e0e0; /* Slight border for receiver message */
+    align-self: flex-start; /* Align messages to the left for receiver */
+    text-align: left; /* Align text to the left */
+    border-top-left-radius: 0; /* Square corner on the receiver's side */
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /* Space between each message */
+}
+
+/*----------------------------------*/
+
+/* MessageSpace.css */
+
+
+
+  /* Message container CSS */
+.msgContainer {
+    background-color: #e0f7fa; /* Light cyan background for messages */
+    color: #333; /* Dark text color for readability */
+    padding: 10px 15px; /* Padding around the message */
+    margin: 10px 0; /* Space between messages */
+    border-radius: 10px; /* Rounded corners for a bubble effect */
+    max-width: 70%; /* Set maximum width to simulate a message bubble */
+    word-wrap: break-word; /* Ensure long words or links break and don't overflow */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    text-align: left; /* Left-align the text */
+}
+  
+.msgSent{
+background-color: #c8e6c9; /* Alternating background color for different messages */
+align-self: flex-end; /* Align even messages to the right */
+}

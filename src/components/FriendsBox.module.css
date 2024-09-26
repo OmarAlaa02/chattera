@@ -1,0 +1,7 @@
+.friendsBox {
+    display: flex;
+    flex-direction: column; /* Stack friends vertically */
+    /* Add more styles specific to the FriendsBox component here */
+    /* overflow: scroll; */
+}
+
